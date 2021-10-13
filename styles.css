@@ -62,5 +62,14 @@ a{
     padding-top: 60px;
 }
 
+article img{
+    border-radius: 50%;
+    padding-top: 10px;
+}
 
+article{
+    display: grid;
+    grid-template-columns:250px 0.8fr;
+    padding-bottom: 50px;
+}
 
