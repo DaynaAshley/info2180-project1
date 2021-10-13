@@ -23,7 +23,9 @@ header .container{
 
 nav{
     padding-top: 20px;
+    padding-right: 20px;
 }
+
 ul{
     list-style-type: none;
 }
@@ -31,3 +33,34 @@ ul{
 a{
     text-decoration: none;
 }
+
+.overview-hero .container{
+    display: grid;
+    grid-template-columns:0.45fr 0.5fr;
+
+}
+
+.overview-hero-image{
+    padding-left: 100px;
+    padding-bottom: 100px;
+    
+}
+
+.cards{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    column-gap: 10px;
+}
+
+.testing .container{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    column-gap: 50px;
+}
+
+.cta{
+    padding-top: 60px;
+}
+
+
+
