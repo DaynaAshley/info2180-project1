@@ -66,7 +66,7 @@ a{
 }
 
 .learn-about{
-    padding-bottom: 50px;
+    padding-bottom: 35px;
 }
 
 .learn-about h2{
@@ -100,12 +100,12 @@ a{
 .testing{
     background-color: #4A5568;
     color: white;
-    padding: 30px;
+    padding: 100px;
 }
 
 .testing .container{
     display: grid;
-    grid-template-columns:repeat(2, 1fr);
+    grid-template-columns:600px 0.8fr;
     column-gap: 100px;
 }
 
@@ -115,12 +115,29 @@ a{
 
 .cta a{
     background-color: #48BB78;
+    color: white;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
     border-radius: 5px;
+}
+
+.stories{
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+
+.stories h2,a{
+    color: #5A67D8;
+}
+
+.stories h3{
+    font-size: 18px;
 }
 
 article img{
     border-radius: 50%;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 article{
@@ -130,24 +147,56 @@ article{
 }
 
 .newsletter{
-    text-align: center;    
+    background-color: #48BB78;
+    color:white;
+    padding: 100px; 
+}
+
+.newsletter h3{
+    text-align: center;
+}
+
+.newsletter .container{
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter p{
+    padding-left: 220px;
+    padding-right: 250px;
 }
 
 form{
+    padding-left: 220px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
     gap: 10px;
-
-
 }
 
 input[type=email]{
-    padding: 10px 30px;
+    padding-right:160px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+    border: 0px none;
 }
 
 .btn{
-    padding: 10px;
-    
+    padding-right:45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 45px;
+    border-radius: 5px;
+    background-color: #5A67D8;
+    color: white;
+    border: 0px none;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: #4A5568;
+    padding: 20px;
+    color: white;
 }
 
