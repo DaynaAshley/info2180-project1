@@ -56,13 +56,18 @@ a{
 
 .overview-hero .container{
     display: grid;
-    grid-template-columns:0.38fr 0.5fr;
+    grid-template-columns:0.38fr 0.58fr;
 
 }
 
 .overview-hero-image{
     padding-left: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
+}
+
+.overview-hero-image img{
+    width:200px;
+    height:180px;
 }
 
 .learn-about{
@@ -85,7 +90,12 @@ a{
     border-radius:5px;
     padding: 10px;
     text-align: center;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.card img{
+    width:280px;
+    height:270px;
 }
 
 .card-body{
@@ -100,30 +110,34 @@ a{
 .testing{
     background-color: #4A5568;
     color: white;
-    padding: 100px;
+    padding: 110px;
 }
 
 .testing .container{
     display: grid;
-    grid-template-columns:600px 0.8fr;
+    grid-template-columns:600px 0.9fr;
     column-gap: 100px;
 }
 
 .cta{
-    padding-top: 60px;
+    padding-top: 80px;
+    padding-left: 10px;
 }
 
 .cta a{
     background-color: #48BB78;
     color: white;
+    text-transform: uppercase;
     text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 35px;
+    padding-right: 35px;
     border-radius: 5px;
 }
 
 .stories{
-    padding-top: 120px;
+    padding-top: 110px;
     padding-bottom: 40px;
 }
 
@@ -142,7 +156,7 @@ article img{
 
 article{
     display: grid;
-    grid-template-columns:250px 0.8fr;
+    grid-template-columns:250px 0.97fr;
     padding-bottom: 50px;
 }
 
